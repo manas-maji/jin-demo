@@ -31,7 +31,6 @@ class SearchPage extends StatelessWidget {
                   ),
                   suffixIcon: IconButton(
                     onPressed: () {
-                      FocusScope.of(context).unfocus();
                       Navigator.pop(context);
                     },
                     icon: Icon(

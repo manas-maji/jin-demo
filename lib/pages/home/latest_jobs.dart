@@ -61,7 +61,7 @@ class JobsHorizontalListView extends StatelessWidget {
             ),
           ),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 0.0),
+          padding: const EdgeInsets.only(left: 16.0),
           child: Container(
             height: MediaQuery.of(context).size.height * 0.22,
             child: ListView(

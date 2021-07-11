@@ -28,7 +28,7 @@ class HomeAppBar extends StatelessWidget {
           ),
           Expanded(
             flex: 5,
-            child: Text('Manas Maji'),
+            child: Text('Hello, Manas'),
           ),
           Expanded(
             flex: 1,

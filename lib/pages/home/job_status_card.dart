@@ -20,19 +20,16 @@ class JobStatusCard extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Expanded(
-              flex: 4,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.blue.shade50,
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(8.0),
-                ),
-                padding: const EdgeInsets.all(8.0),
-                child: Icon(icon, color: Colors.orange),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.blue.shade50,
+                shape: BoxShape.rectangle,
+                borderRadius: BorderRadius.circular(8.0),
               ),
+              padding: const EdgeInsets.all(8.0),
+              child: Icon(icon, color: Colors.orange),
             ),
-            Expanded(flex: 1, child: SizedBox()),
+            SizedBox(width: 8.0),
             Expanded(
               flex: 10,
               child: Column(
